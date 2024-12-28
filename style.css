@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    nav {
+    background-color: rgb(216, 76, 99);
+    color:black;
+    padding: 15px;
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    background-color: yellow;
+}
+input{
+    width: 100%;
+    padding:15px;
+}
+.searchbar{
+    margin:25px;
+}
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align:center;
+    font-size: 4rem;
+    color:var(--pink);
+    padding: 1rem;
+    margin:2rem 0;
+    background: rgba(255, 51, 153, 0.616);
+    display: block;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color:#fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background:rgb(231, 9, 46);
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(flower.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: black;
+}
+.home .content span{
+    font-size: 3.5rem;
+    color:var(--pink);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+.home .content p{
+    font-size: 1.5rem;
+    color:#141313;
+    padding:1rem 0;
+    line-height: 1.5;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row .video-container{
+    flex: 1 1 40rem;
+    position: relative;
+}
+.about .row .video-container video{
+    width: 100%;
+    border:1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+.about .row .video-container h3{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 3rem;
+    color: #333;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: #333;
+}
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #1f1e1e;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+
+}
+
+.head{
+    text-align:center;
+    font-size: 4rem;
+    color:var(--pink);
+    padding: 1rem;
+    margin:2rem 0;
+    background: rgba(233, 14, 124, 0.589);
+    display: block;
+}
+.service{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.services .service img{
+    width: 220px;
+    height:220px;
+}
+.services{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.service:hover{
+    background-color: #141313;
+    color: #fff;
+}
